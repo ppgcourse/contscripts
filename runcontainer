@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run -it --name=ppgContainer -u ppguser -v /home/alumne/ppguser/ppgdata:/ppgdata cb52dff4952c /bin/bash -c 'cd /home/ppguser && /bin/bash'
+docker run -it --name=ppgContainer -u ppguser -v /home/alumne/ppgcourse/ppgdata:/ppgdata cb52dff4952c /bin/bash -c 'cd /home/ppguser && /bin/bash'
 
