@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -it --name=ppgContainer -u ppguser 9df758cb720f /bin/bash -c 'cd /home/ppguser && /bin/bash'
+
