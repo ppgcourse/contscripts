@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker start ppgContainer
+docker exec -it ppgContainer /bin/bash -c 'cd /home/ppguser && /bin/bash'
